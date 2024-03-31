@@ -1,4 +1,4 @@
-from main import Database
+from database import Database
 
 def main():
     db = Database("test_db")
