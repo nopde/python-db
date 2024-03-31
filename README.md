@@ -3,17 +3,21 @@ This is a Python class that manages a simple key-value database. The class provi
 
 ## Usage
 - Import the Database class:
-```from database import Database```
-- Create an instance of the Database class with a name for the database:
-```db = Database("my_database")```
-You can also provide an initial dictionary of key-value pairs:
+```python
+from database import Database
 ```
+- Create an instance of the Database class with a name for the database:
+```python
+db = Database("my_database")
+```
+- You can also provide an initial dictionary of key-value pairs:
+```python
 initial_data = { "name": "John Doe", "age": 30 }
 db = Database("my_database", initial_data)
 ```
 
 ### Example usage:
-```
+```python
 initial_data = { "name": "John Doe", "age": 30 }
 db = Database("my_database", initial_data)
 
